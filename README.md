@@ -7,10 +7,6 @@
 To make it easy for you to get started with GitHub, here's a list of recommended next steps.
 
 
-cd existing_repo
-git remote add origin http://192.168.0.210/techedge-sport-app/admin-panel.git
-git branch -M main
-git push -uf origin main
 ```
 
 ## Integrate with your tools
