@@ -19,8 +19,8 @@ git push -uf origin main
 
 ## Collaborate with your team
 
-- [ ] [Invite team members and collaborators]
-- [ ] [Create a new merge request]
-- [ ] [Automatically close issues from merge requests]
-- [ ] [Enable merge request approvals]
-- [ ] [Automatically merge when pipeline succeeds]
+-  [Invite team members and collaborators]
+-  [Create a new merge request]
+-  [Automatically close issues from merge requests]
+-  [Enable merge request approvals]
+-  [Automatically merge when pipeline succeeds]
