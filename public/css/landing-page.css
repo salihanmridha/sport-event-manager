@@ -1,0 +1,433 @@
+body {
+    background: #f5f5f5;
+}
+.landing-page .session-header {
+    background-color: brown;
+    height: 100vh;
+    background-image: url(./../images/Section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landing-page .session-header-banner {
+    background-color: brown;
+    height: 100vh;
+    background-image: url(./../images/Section_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landing-page {
+    max-width: 1512px;
+    margin: 0 auto;
+    max-width: 100vw;
+    /* overflow: hidden; */
+}
+.header-fixed {
+    position: fixed;
+    align-items: center;
+    width: 1512px;
+    z-index: 99;
+    max-width: 100vw;
+}
+.header-fixed .container {
+    padding: 63px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-fixed .logo {
+    position: relative;
+    padding-left: 33px;
+    height: 40px;
+}
+.header-fixed .logo::after {
+    content: "";
+    width: 218px;
+    height: 40px;
+    background-image: url(./../images/Logo_bl.png);
+    position: absolute;
+    top: 0;
+    transition: all 0.3s;
+}
+.header-fixed .link-app {
+    display: flex;
+    align-items: center;
+    margin-right: 41px;
+}
+.header-fixed .link-app div {
+    width: 23px;
+    margin: 0 7px;
+}
+.header-fixed .apple-link a::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    background-image: url(./../images/apple_bl.png);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s;
+}
+.header-fixed .android-link a::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    background-image: url(./../images/android_bl.png);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s;
+}
+.session-footer .footer-fixed {
+    position: fixed;
+    width: 1512px;
+    bottom: 0;
+    z-index: 99;
+    max-width: 100vw;
+}
+.footer-fixed .container {
+    padding: 57px 107px 57px 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.session-footer .footer-fixed .left-footer::before {
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url(./../images/menu_burger_bl.png);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s;
+}
+.session-footer .footer-fixed .left-footer span {
+    margin-left: 24px;
+}
+.session-footer .footer-fixed span {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    transition: all 0.3s;
+}
+/* HOVER */
+.black-all .header-fixed .logo::after,
+.black-all .header-fixed .logo::after {
+    background-image: url(./../images/Logo_wht.png);
+}
+.black-all .header-fixed .apple-link a::after,
+.black-all .header-fixed .apple-link a::after {
+    background-image: url(./../images/apple_w.png);
+}
+.black-all .header-fixed .android-link a::after,
+.black-all .header-fixed .android-link a::after {
+    background-image: url(./../images/android_wht.png);
+}
+.black-all .session-footer .footer-fixed .left-footer::before,
+.black-all .session-footer .footer-fixed .left-footer::before {
+    background-image: url(./../images/menu-burger-wht.png);
+}
+.black-all .session-footer .footer-fixed span,
+.black-all .session-footer .footer-fixed span {
+    color: #ffffff;
+}
+.container {
+    margin: 0 auto;
+}
+
+.session-sports {
+    min-height: 907px;
+    background-image: url(./../images/Rectangle_4.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.session-sports .body-sport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.session-sports .title-and-desc {
+    z-index: 9;
+    text-align: right;
+    padding-right: 40px;
+}
+.session-sports .title-sports {
+    font-family: "Koulen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 77%;
+    text-align: right;
+    color: #000000;
+    margin-right: -113px;
+    margin-bottom: 26px;
+}
+.session-sports .desc-sport {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: right;
+    color: #000000;
+}
+.session-never-miss {
+    margin-top: -177px;
+}
+.session-never-miss .body-sport {
+    align-items: flex-start;
+}
+.session-never-miss .body-sport .left-content {
+    display: flex;
+}
+.session-never-miss .body-sport .left-content .left-img {
+    margin-top: 126px;
+}
+.session-never-miss .body-sport .left-content .right-img {
+    max-height: 538px;
+    margin-left: -28px;
+}
+.session-never-miss .title-and-desc {
+    margin-top: 126px;
+    margin-left: 67px;
+}
+.session-never-miss .title-and-desc .title-sports {
+    text-align: start;
+}
+.session-never-miss .desc-sport {
+    padding-left: 34px;
+}
+
+.session-alone {
+    margin-top: -83px;
+    padding: 99px 55px;
+    flex-direction: column;
+}
+.session-alone .body-sport,
+.session-alone {
+    align-items: start;
+}
+.session-alone .title-and-desc {
+    padding-right: 50px;
+}
+.session-alone .title-sports {
+    margin-right: 0px;
+    padding-top: 56px;
+}
+.session-alone .desc-sport {
+    display: flex;
+}
+.session-alone .bottom-alone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.session-alone .bottom-alone img {
+    margin-top: -230px;
+    margin-right: 97px;
+}
+
+.session-banner-body {
+    position: relative;
+    max-width: 100vw;
+    min-height: 208px;
+}
+.session-banner-body::after {
+    content: "";
+    height: 208px;
+    width: 1669px;
+    background-image: url(./../images/Tape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    max-width: 100vw;
+    left: 0;
+}
+
+.session-link-app {
+    background-image: url(./../images/Rectangle_10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -40px;
+    justify-content: end;
+    padding-right: 203px;
+}
+.session-link-app .title-link-app {
+    font-family: "Koulen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 77%;
+    color: #ffffff;
+}
+.session-link-app .app-link-image {
+    display: flex;
+    margin-top: 35px;
+}
+.session-link-app .app-link-image .apple-link-app {
+    margin-right: 27px;
+    width: 174px;
+}
+.session-link-app .app-link-image a {
+    position: relative;
+}
+.android-link-app::after {
+    content: "";
+    height: 67px;
+    width: 193px;
+    background-image: url(./../images/Android.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    max-width: 100vw;
+    left: 0;
+    transition: all 0.5s;
+}
+.apple-link-app::after {
+    content: "";
+    height: 67px;
+    width: 174px;
+    background-image: url(./../images/Apple.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    max-width: 100vw;
+    left: 0;
+    transition: all 0.5s;
+}
+.android-link-app:hover::after {
+    background-image: url(./../images/android_colored.png);
+}
+.apple-link-app:hover::after {
+    background-image: url(./../images/apple_Colored.png);
+}
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1512px;
+    }
+    .session-banner-body::after {
+        left: -49px;
+    }
+}
+@media (max-width: 1669px) {
+    .landing-page {
+        overflow: hidden;
+    }
+}
+@media (max-width: 1200px) {
+    .landing-page .header-fixed,
+    .landing-page .footer-fixed {
+        max-width: 100vw;
+    }
+    .landing-page {
+        max-width: 100vw;
+        overflow: hidden;
+    }
+}
+@media (max-width: 992px) {
+    .body-sport {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .session-never-miss .body-sport .left-content,
+    .session-never-miss .body-sport {
+        flex-direction: column;
+        align-items: center;
+    }
+    .session-sports .title-and-desc,
+    .session-sports .title-sports {
+        padding: 0;
+        text-align: center !important;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .session-sports .title-sports {
+        margin: 0;
+    }
+    .session-never-miss,
+    .session-alone {
+        margin-top: 25px;
+    }
+    .session-never-miss .body-sport .left-content .left-img {
+        margin-bottom: 25px;
+    }
+    .session-never-miss .body-sport .left-content .right-img {
+        margin-left: 0;
+    }
+    .session-alone .desc-sport,
+    .session-sports .desc-sport {
+        align-items: center;
+        text-align: center;
+    }
+    .session-alone .bottom-alone img {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .session-banner-body {
+        max-width: 100vw;
+        overflow: hidden;
+    }
+    .session-never-miss .title-and-desc {
+        margin-left: 0;
+    }
+    .session-link-app {
+        padding: 0;
+        justify-content: center;
+    }
+    .session-link-app .app-link-image {
+        flex-direction: column;
+    }
+    .session-link-app .app-link-image a {
+        width: 100% !important;
+    }
+    .android-link-app::after {
+        top: 77px;
+    }
+    .apple-link-app::after,
+    .android-link-app::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media (max-width: 576px) {
+    .header-fixed .container {
+        flex-direction: column;
+    }
+    .footer-fixed .container {
+        padding: 57px 20px 57px 20px;
+    }
+    .session-footer,
+    .session-header .link-app {
+        display: flex;
+        height: 40px;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+    }
+    .session-link-app .app-link-image {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .session-link-app .app-link-image .apple-link-app {
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+    .session-link-app .title-link-app {
+        font-size: 88px;
+    }
+    .session-sports .title-sports {
+        font-size: 120px;
+    }
+}
