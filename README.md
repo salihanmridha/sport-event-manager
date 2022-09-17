@@ -1,4 +1,4 @@
-# Admin Panel o Sport Event Manager
+# Admin Panel of Sport Event Manager
 
 ## Getting started
 
