@@ -6,13 +6,6 @@
 
 To make it easy for you to get started with GitHub, here's a list of recommended next steps.
 
-
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](http://192.168.0.210/techedge-sport-app/admin-panel/-/settings/integrations)
-
 ## Collaborate with your team
 
 -  [Invite team members and collaborators]
